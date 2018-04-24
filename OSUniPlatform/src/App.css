@@ -1,0 +1,70 @@
+/* PAGE */
+
+body,
+.pure-g [class*=pure-u] {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+pre {
+  display: block;
+  margin: 20px 0 15px 0;#ffc966
+  padding: 10px;
+  background: #eee;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px 20px;
+}
+
+.pure-button-primary {
+  background-color: #ffb733;
+}
+
+.pure-button-primary:hover {
+  background-color: #ffa500;
+}
+
+.pure-form input[type="text"]:focus {
+  border-color: #ffb733;
+}
+
+/* NAVBAR */
+/* color #0c1a2b */
+
+.navbar {
+  position: fixed;
+  padding: 5px;
+  background: #ffb733;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+/* #233e5e */
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover {
+  background: #ffae1a;
+}
+
+.navbar .pure-menu-heading {
+  font-weight: bold;
+  text-transform: none;
+}
+
+.navbar .navbar-right {
+  float: right;
+}
+
+.navbar .uport-logo {
+  height: 16px;
+  margin-right: 10px;
+}
