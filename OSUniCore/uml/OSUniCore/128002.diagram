@@ -1,0 +1,25 @@
+format 214
+
+classcanvas 128130 class_ref 128002 // Learner
+  classdiagramsettings member_max_width 0 end
+  xyz 491 164 2000
+end
+classcanvas 128258 class_ref 128130 // Academia
+  classdiagramsettings member_max_width 0 end
+  xyz 243 161 2000
+end
+classcanvas 128386 class_ref 128258 // Business
+  classdiagramsettings member_max_width 0 end
+  xyz 636 168 2000
+end
+classcanvas 128514 class_ref 128386 // Course
+  classdiagramsettings member_max_width 0 end
+  xyz 356 163 2000
+end
+classcanvas 128642 class_ref 128514 // Authority
+  classdiagramsettings member_max_width 0 end
+  xyz 127 161 2000
+end
+note 129666 "Used to exchange contact information"
+  xyzwh 884 112 2000 35 35
+end
